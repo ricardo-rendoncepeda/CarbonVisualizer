@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="kQC-t8-k2Y">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="6dn-lU-jk7">
+            <objects>
+                <viewController id="kQC-t8-k2Y" customClass="ViewController" customModule="CarbonVisualizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hYx-gu-9hy"/>
+                        <viewControllerLayoutGuide type="bottom" id="770-eV-Tev"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CvP-vF-jX7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Geometry" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="560" translatesAutoresizingMaskIntoConstraints="NO" id="ipJ-sd-2Tw">
+                                <rect key="frame" x="20" y="30" width="560" height="46"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="46" id="7un-Tc-Iu6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Rd9-yi-L9M">
+                                <rect key="frame" x="20" y="552" width="560" height="29"/>
+                                <segments>
+                                    <segment title="Atoms"/>
+                                    <segment title="Methane"/>
+                                    <segment title="Ethanol"/>
+                                    <segment title="PTFE"/>
+                                </segments>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="segmentValueChanged:" destination="kQC-t8-k2Y" eventType="valueChanged" id="YmU-ag-O9d"/>
+                                </connections>
+                            </segmentedControl>
+                            <sceneKitView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" loops="NO" wantsMultisampling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6AR-9S-R7o">
+                                <rect key="frame" x="0.0" y="84" width="600" height="460"/>
+                                <color key="backgroundColor" red="0.63921568630000003" green="0.63921568630000003" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </sceneKitView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.63921568630000003" green="0.63921568630000003" blue="0.63921568630000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Rd9-yi-L9M" firstAttribute="top" secondItem="6AR-9S-R7o" secondAttribute="bottom" constant="8" symbolic="YES" id="4sZ-DA-0im"/>
+                            <constraint firstItem="6AR-9S-R7o" firstAttribute="leading" secondItem="CvP-vF-jX7" secondAttribute="leading" id="6XU-Yf-fNt"/>
+                            <constraint firstItem="6AR-9S-R7o" firstAttribute="top" secondItem="ipJ-sd-2Tw" secondAttribute="bottom" constant="8" symbolic="YES" id="CFe-Ha-Ktq"/>
+                            <constraint firstItem="ipJ-sd-2Tw" firstAttribute="top" secondItem="hYx-gu-9hy" secondAttribute="bottom" constant="10" id="K9W-1T-Wes"/>
+                            <constraint firstAttribute="bottom" secondItem="Rd9-yi-L9M" secondAttribute="bottom" constant="20" symbolic="YES" id="MkZ-j8-9Qz"/>
+                            <constraint firstItem="ipJ-sd-2Tw" firstAttribute="leading" secondItem="CvP-vF-jX7" secondAttribute="leading" constant="20" symbolic="YES" id="R3M-4W-4tX"/>
+                            <constraint firstItem="ipJ-sd-2Tw" firstAttribute="leading" secondItem="Rd9-yi-L9M" secondAttribute="leading" id="a5u-QQ-NIQ"/>
+                            <constraint firstAttribute="centerX" secondItem="6AR-9S-R7o" secondAttribute="centerX" id="jD4-LS-02o"/>
+                            <constraint firstAttribute="trailing" secondItem="ipJ-sd-2Tw" secondAttribute="trailing" constant="20" symbolic="YES" id="kNc-xn-k7s"/>
+                            <constraint firstItem="ipJ-sd-2Tw" firstAttribute="trailing" secondItem="Rd9-yi-L9M" secondAttribute="trailing" id="tdH-Do-4Df"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="geometryLabel" destination="ipJ-sd-2Tw" id="Lwx-rS-myS"/>
+                        <outlet property="sceneView" destination="6AR-9S-R7o" id="iDf-fE-4hz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HCr-kA-UFr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="301" y="372"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80A0126D196A52E100BB3146 /* EthanolScene.dae in Resources */ = {isa = PBXBuildFile; fileRef = 80A0126C196A52E100BB3146 /* EthanolScene.dae */; };
+		80C4D616196B644B007BD44F /* Atoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C4D615196B644B007BD44F /* Atoms.swift */; };
+		80C4D618196B647A007BD44F /* Molecules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C4D617196B647A007BD44F /* Molecules.swift */; };
+		80EE09C0196A4C4A00B77AB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE09BF196A4C4A00B77AB0 /* AppDelegate.swift */; };
+		80EE09C5196A4C4A00B77AB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80EE09C3196A4C4A00B77AB0 /* Main.storyboard */; };
+		80EE09C7196A4C4A00B77AB0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80EE09C6196A4C4A00B77AB0 /* Images.xcassets */; };
+		80EE09D3196A4C4A00B77AB0 /* CarbonVisualizerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE09D2196A4C4A00B77AB0 /* CarbonVisualizerTests.swift */; };
+		80EE09DD196A4C8B00B77AB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80EE09DC196A4C8B00B77AB0 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80EE09CD196A4C4A00B77AB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80EE09B2196A4C4A00B77AB0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80EE09B9196A4C4A00B77AB0;
+			remoteInfo = CarbonVisualizer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80A0126C196A52E100BB3146 /* EthanolScene.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = EthanolScene.dae; sourceTree = "<group>"; };
+		80C4D615196B644B007BD44F /* Atoms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Atoms.swift; sourceTree = "<group>"; };
+		80C4D617196B647A007BD44F /* Molecules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Molecules.swift; sourceTree = "<group>"; };
+		80EE09BA196A4C4A00B77AB0 /* CarbonVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarbonVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80EE09BE196A4C4A00B77AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80EE09BF196A4C4A00B77AB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80EE09C4196A4C4A00B77AB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80EE09C6196A4C4A00B77AB0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		80EE09CC196A4C4A00B77AB0 /* CarbonVisualizerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarbonVisualizerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80EE09D1196A4C4A00B77AB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80EE09D2196A4C4A00B77AB0 /* CarbonVisualizerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarbonVisualizerTests.swift; sourceTree = "<group>"; };
+		80EE09DC196A4C8B00B77AB0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80EE09B7196A4C4A00B77AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EE09C9196A4C4A00B77AB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80EE09B1196A4C4A00B77AB0 = {
+			isa = PBXGroup;
+			children = (
+				80EE09BC196A4C4A00B77AB0 /* CarbonVisualizer */,
+				80EE09CF196A4C4A00B77AB0 /* CarbonVisualizerTests */,
+				80EE09BB196A4C4A00B77AB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80EE09BB196A4C4A00B77AB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80EE09BA196A4C4A00B77AB0 /* CarbonVisualizer.app */,
+				80EE09CC196A4C4A00B77AB0 /* CarbonVisualizerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80EE09BC196A4C4A00B77AB0 /* CarbonVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				80EE09BF196A4C4A00B77AB0 /* AppDelegate.swift */,
+				80EE09DC196A4C8B00B77AB0 /* ViewController.swift */,
+				80C4D615196B644B007BD44F /* Atoms.swift */,
+				80C4D617196B647A007BD44F /* Molecules.swift */,
+				80EE09C3196A4C4A00B77AB0 /* Main.storyboard */,
+				80EE09C6196A4C4A00B77AB0 /* Images.xcassets */,
+				80A0126C196A52E100BB3146 /* EthanolScene.dae */,
+				80EE09BD196A4C4A00B77AB0 /* Supporting Files */,
+			);
+			path = CarbonVisualizer;
+			sourceTree = "<group>";
+		};
+		80EE09BD196A4C4A00B77AB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80EE09BE196A4C4A00B77AB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80EE09CF196A4C4A00B77AB0 /* CarbonVisualizerTests */ = {
+			isa = PBXGroup;
+			children = (
+				80EE09D2196A4C4A00B77AB0 /* CarbonVisualizerTests.swift */,
+				80EE09D0196A4C4A00B77AB0 /* Supporting Files */,
+			);
+			path = CarbonVisualizerTests;
+			sourceTree = "<group>";
+		};
+		80EE09D0196A4C4A00B77AB0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80EE09D1196A4C4A00B77AB0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80EE09B9196A4C4A00B77AB0 /* CarbonVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80EE09D6196A4C4A00B77AB0 /* Build configuration list for PBXNativeTarget "CarbonVisualizer" */;
+			buildPhases = (
+				80EE09B6196A4C4A00B77AB0 /* Sources */,
+				80EE09B7196A4C4A00B77AB0 /* Frameworks */,
+				80EE09B8196A4C4A00B77AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarbonVisualizer;
+			productName = CarbonVisualizer;
+			productReference = 80EE09BA196A4C4A00B77AB0 /* CarbonVisualizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80EE09CB196A4C4A00B77AB0 /* CarbonVisualizerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80EE09D9196A4C4A00B77AB0 /* Build configuration list for PBXNativeTarget "CarbonVisualizerTests" */;
+			buildPhases = (
+				80EE09C8196A4C4A00B77AB0 /* Sources */,
+				80EE09C9196A4C4A00B77AB0 /* Frameworks */,
+				80EE09CA196A4C4A00B77AB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80EE09CE196A4C4A00B77AB0 /* PBXTargetDependency */,
+			);
+			name = CarbonVisualizerTests;
+			productName = CarbonVisualizerTests;
+			productReference = 80EE09CC196A4C4A00B77AB0 /* CarbonVisualizerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80EE09B2196A4C4A00B77AB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = RayWenderlich;
+				TargetAttributes = {
+					80EE09B9196A4C4A00B77AB0 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					80EE09CB196A4C4A00B77AB0 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 80EE09B9196A4C4A00B77AB0;
+					};
+				};
+			};
+			buildConfigurationList = 80EE09B5196A4C4A00B77AB0 /* Build configuration list for PBXProject "CarbonVisualizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80EE09B1196A4C4A00B77AB0;
+			productRefGroup = 80EE09BB196A4C4A00B77AB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80EE09B9196A4C4A00B77AB0 /* CarbonVisualizer */,
+				80EE09CB196A4C4A00B77AB0 /* CarbonVisualizerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80EE09B8196A4C4A00B77AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80EE09C5196A4C4A00B77AB0 /* Main.storyboard in Resources */,
+				80A0126D196A52E100BB3146 /* EthanolScene.dae in Resources */,
+				80EE09C7196A4C4A00B77AB0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EE09CA196A4C4A00B77AB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80EE09B6196A4C4A00B77AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C4D616196B644B007BD44F /* Atoms.swift in Sources */,
+				80EE09DD196A4C8B00B77AB0 /* ViewController.swift in Sources */,
+				80EE09C0196A4C4A00B77AB0 /* AppDelegate.swift in Sources */,
+				80C4D618196B647A007BD44F /* Molecules.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80EE09C8196A4C4A00B77AB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80EE09D3196A4C4A00B77AB0 /* CarbonVisualizerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80EE09CE196A4C4A00B77AB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80EE09B9196A4C4A00B77AB0 /* CarbonVisualizer */;
+			targetProxy = 80EE09CD196A4C4A00B77AB0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80EE09C3196A4C4A00B77AB0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80EE09C4196A4C4A00B77AB0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80EE09D4196A4C4A00B77AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80EE09D5196A4C4A00B77AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80EE09D7196A4C4A00B77AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CarbonVisualizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		80EE09D8196A4C4A00B77AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CarbonVisualizer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		80EE09DA196A4C4A00B77AB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarbonVisualizer.app/CarbonVisualizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarbonVisualizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		80EE09DB196A4C4A00B77AB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CarbonVisualizer.app/CarbonVisualizer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CarbonVisualizerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80EE09B5196A4C4A00B77AB0 /* Build configuration list for PBXProject "CarbonVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80EE09D4196A4C4A00B77AB0 /* Debug */,
+				80EE09D5196A4C4A00B77AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80EE09D6196A4C4A00B77AB0 /* Build configuration list for PBXNativeTarget "CarbonVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80EE09D7196A4C4A00B77AB0 /* Debug */,
+				80EE09D8196A4C4A00B77AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80EE09D9196A4C4A00B77AB0 /* Build configuration list for PBXNativeTarget "CarbonVisualizerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80EE09DA196A4C4A00B77AB0 /* Debug */,
+				80EE09DB196A4C4A00B77AB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80EE09B2196A4C4A00B77AB0 /* Project object */;
+}
